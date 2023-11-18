@@ -80,6 +80,29 @@ position: relative;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 25px;
+
+}
+.todoapp1{
+    width: 100%;
+    max-width: 580px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 25px;
+}
+.todoapp1 h1{
+    color:black;
+    text-align: center;
+    margin-top: -30px;
+    transition:all 0.4s;
+    font-size: 20px;
+
+
+}
+.todoapp1 h1:hover{
+color:  rgb(74, 76, 76);
+transform: scale(1.2);
+
 }
 ul li::before{
     content: '';
