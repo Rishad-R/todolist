@@ -1,8 +1,9 @@
 const inputbox = document.getElementById("input-box");
 const tasktobedone = document.getElementById("tasktobedone");
 
+
 function addtask(){
-    if(inputbox === ''){
+    if(inputbox.value === ""){
         alert("You Must write Something!");
     }
     else{
